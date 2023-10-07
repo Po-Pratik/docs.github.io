@@ -1,9 +1,9 @@
 ---
 title: Getting Started
-categories: [get started]
-tags: [minimum requirements]
+date: 2023-10-07 16:00:00 +05:30
+categories: [getstarted]
+tags: [minimumrequirements]
 ---
-
 
 # Introduction
 
@@ -37,7 +37,8 @@ Use Windows installer package to setup SafeSquid on a Microsoft Windows system.
 
 SafeSquid is SMP-aware so if you need to serve a large number of users, you should use hardware with multiple CPU cores, and ability to use more RAM efficiently.
 While the above specified Minimal Hardware should enable you to do a functional setup of SafeSquid, actual hardware requirements would vary depending upon the number of users, concurrent connections, and features you intend to enable. As a thumb rule - add 2 CPU cores and 4GB RAM per 100 concurrent connections.
-###Suggested Hardware Sizing 
+### Suggested Hardware Sizing 
+
 |CPU (cores)    | RAM (GB)  | 	HDD  |Max Concurrent Connections|Approx Users|
 |:---------------:|:-----------:|:--------:|:--------------------------:|:------------:|
 |4 	            |   8 	    | 500GB  |      	 100 	        |   25       |
