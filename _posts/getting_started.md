@@ -39,7 +39,7 @@ SafeSquid is SMP-aware so if you need to serve a large number of users, you shou
 While the above specified Minimal Hardware should enable you to do a functional setup of SafeSquid, actual hardware requirements would vary depending upon the number of users, concurrent connections, and features you intend to enable. As a thumb rule - add 2 CPU cores and 4GB RAM per 100 concurrent connections.
 ###Suggested Hardware Sizing 
 |CPU (cores)    | RAM (GB)  | 	HDD  |Max Concurrent Connections|Approx Users|
-|---------------|-----------|--------|--------------------------|------------|
+|:---------------:|:-----------:|:--------:|:--------------------------:|:------------:|
 |4 	            |   8 	    | 500GB  |      	 100 	        |   25       |
 |4 	            |   16   	| 1TB 	 |           500 	1       |   50       |
 |8 	            |   16   	| 2TB 	 |           1000 	        |   350      |
