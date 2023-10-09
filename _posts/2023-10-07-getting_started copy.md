@@ -50,36 +50,38 @@ While the above specified Minimal Hardware should enable you to do a functional 
 
 If you intend to use SafeSquid's HTTPS Inspection feature, using processors with "AES-NI", is recommended.
 
-How to find out AES-NI (Advanced Encryption) Enabled on Linux System
+[How to find out AES-NI (Advanced Encryption) Enabled on Linux System](https://www.cyberciti.biz/faq/how-to-find-out-aes-ni-advanced-encryption-enabled-on-linux-system/)
 
 # Installation and Activation
 ## Get Product Activation Key
 
-Before downloading the SafeSquid installer(s), you MUST register to create your account on SafeSquid's self-service portal at - https://key.safesquid.com/. Registration is free, and requires just a few minutes. Your registered account also provides the management of SafeSquid's cloud-backed features, like Custom Web Categorization, VPN support, Configuration Backup, Subscription management, etc.
+Before downloading the SafeSquid installer(s), you MUST register to create your account on SafeSquid's self-service portal at - [key.safesquid.com](https://key.safesquid.com/).. Registration is free, and requires just a few minutes. Your registered account also provides the management of SafeSquid's cloud-backed features, like Custom Web Categorization, VPN support, Configuration Backup, Subscription management, etc.
 
 All registered users are provided with a Product Activation Key. After the actual installation, you must upload this activation key via SafeSquid's Browser based Interface. Your users may not be able to access the web until then. Use the same Activation Key across all your instances of SafeSquid, to ensure easy replication of policies, and other common aspects.
 
-Read more about Registration Process for https://key.safesquid.com
+Read more about Registration Process for [key.safesquid.com](https://key.safesquid.com/).
 
 ## Download Installation Package
 ### SafeSquid Appliance Builder
 
-SafeSquid Appliance Builder (SAB) is the most recommended installer. You may download it using the link displayed when you log into your registered account. Alternatively you may download it from - https://downloads.safesquid.com/appliance/safesquid.iso . SAB is a customized version of Ubuntu 18.04 x86_64 minimal iso. You may create a virtual appliance using the SAB iso on any virtualization infrastructure, or boot a standard Intel Server hardware to create a hardware appliance.
+SafeSquid Appliance Builder (SAB) is the most recommended installer. You may download it using the link displayed when you log into your registered account. 
+Alternatively you may download it from - [safesquid.iso](https://downloads.safesquid.com/appliance/safesquid.iso). 
+SAB is a customized version of Ubuntu 18.04 x86_64 minimal iso. You may create a virtual appliance using the SAB iso on any virtualization infrastructure, or boot a standard Intel Server hardware to create a hardware appliance.
 
-Read more about Setup Your Secure Web Gateway With SafeSquid Appliance Builder
+Read more about [Setup Your Secure Web Gateway With SafeSquid Appliance Builder]()
 
 ### Legacy SafeSquid for Linux
 
-Read more about Setup Your Secure Web Gateway on your preferred Linux distribution
+Read more about [Setup Your Secure Web Gateway on your preferred Linux distribution]()
 
 ## Activate your Product
 
-Before you start accessing the web via SafeSquid you must activate it. Read more about How to Activate a SafeSquid Instance
+Before you start accessing the web via SafeSquid you must activate it. Read more about [How to Activate a SafeSquid Instance]()
 
 # Basic Setup
 
-If you plan to use HTTPS inspection, then you must first configure HTTPS inspection
+If you plan to use HTTPS inspection, then you must first [configure HTTPS inspection]()
 
-Integration of SafeSquid Proxy Service with your Microsoft Active Directory, or OpenLDAP service, would be the most recommended immediate next step.
+Integration of SafeSquid Proxy Service with your [Microsoft Active Directory](), or [OpenLDAP service](), would be the most recommended immediate next step.
 
-The How To section could provide you with a fair idea of the rest of the goals that you may want to achieve. 
+The [How To]() section could provide you with a fair idea of the rest of the goals that you may want to achieve. 
