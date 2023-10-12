@@ -32,7 +32,7 @@ df -kh
 You will see the Used and Available size on each partition.
 
 |Filesystem                                	|Size   	|Used |  	Avail  	|Use% |  	Mounted on        |
-|-------------------------------------------|---------|-----|-----------|-----|---------------------|
+|-------------------------------------------|:-------:|:---:|:---------:|:---:|:--------------------|
 |udev                                      	|735M   	|4.0K |  	 735M  	|1% 	|/dev                 |
 |tmpfs                                     	|150M   	|428K |  	 149M  	|1% 	|/run                 |
 |/dev/dm-2                                 	|4.9G   	|4.2G |  	 424M  	|91%  |	/                   |
@@ -46,6 +46,7 @@ You will see the Used and Available size on each partition.
 |/dev/mapper/dev--vg-var+db+safesquid      	| 15G   	|193M |  	  14G  	|2% 	|/var/db/safesquid    |
 |/dev/mapper/dev--vg-var+log+safesquid     	| 15G   	|171M |  	  14G  	|2% 	|/var/log/safesquid   |
 |/dev/ram1                                 	| 62M   	|1.3M |  	  58M  	|3% 	|/tmp/safesquid       |
+
 If any of the above partitions are observed to be used over 80%, then
 you may take backup of the following files and delete files as per your
 requirement.
