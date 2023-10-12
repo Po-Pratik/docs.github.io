@@ -1,8 +1,8 @@
 ---
-title: How To Setup Your Secure Web Gateway With SafeSquid Appliance Builder
+title: How to Setup Your Secure Web Gateway With SafeSquid Appliance Builder
 date: 2023-10-07 16:00:00 +05:30
-categories: [getstarted,sab,setup]
-tags: [setup]
+categories: [How To]
+tags: [HowTo]
 ---
 
 # Overview

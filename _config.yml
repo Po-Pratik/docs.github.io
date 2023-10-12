@@ -23,7 +23,7 @@ title: SafeSquid Docs # the main title
 tagline: # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Offical SafeSquid Documentation.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://safesquiddocs.github.io"
@@ -141,9 +141,8 @@ defaults:
     values:
       layout: post
       comments: true # Enable comments in posts.
-      toc: false # Display TOC column in posts.
-      # DO NOT modify the following parameter unless you are confident enough
-      # to update the code of all other post links in this project.
+      toc: true
+      pdf: true
       permalink: /posts/:title/
   - scope:
       path: _drafts
@@ -153,7 +152,7 @@ defaults:
       path: ""
       type: tabs # see `site.collections`
     values:
-      layout: page
+      layout: posts
       permalink: /:title/
   - scope:
       path: assets/img/favicons

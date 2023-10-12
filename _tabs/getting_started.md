@@ -1,5 +1,333 @@
 ---
-layout: Getting Started
+title: Getting Started
+layout: post
 icon: fa fa-dashboard
 order: 2
 ---
+
+# Introduction
+
+SafeSquid is an RFC 2616 compliant HTTP/1.1 proxy server, specially designed to provide maximum protocol, and payload security.
+
+SafeSquid based Secure Web Gateways enable your users to safely access the web.
+SafeSquid, when setup in Reverse Proxy mode, secures your web applications.
+
+SafeSquid is a highly scalable software, that enables scaling up by increasing the hardware provisioning, or scaling out by creating an application cluster.
+
+While the installable packages for both these platforms are different for obvious reasons, the configuration and operation is quite identical. So you can choose platform of your choice, to host SafeSquid Proxy Service. Yes, the advantages of deploying SafeSquid on Linux are overall higher because the Linux operating system is better suited for servers. But then if you are more comfortable with Microsoft®Windows, you can happily deploy on Windows. Migration from either of the platforms to the other is not very difficult, really!
+
+ 
+# System Requisites
+
+Use SafeSquid Appliance Builder (SAB) to setup your secure web gateway. SAB is an Ubuntu Linux operating system ISO, customized to provide automatic setup of all the necessary files and services. SAB enables you to transform a standard Intel® hardware architecture for servers, into a hardware web security appliance, or a setup a virtual appliance on any virtualization infrastructure like VmWare® or Microsoft Hyper-V®.
+
+Use the SafeSquid installation packages (tar.gz) if you wish to setup secure web gateway on other Linux distributions like RedHat®, SuSe®, CentOS®, etc.
+
+Use Windows installer package to setup SafeSquid on a Microsoft Windows system.
+
+# Hardware Requirements
+## Minimal Hardware
+
+* RAM: 4 GB
+* CPU: 4 Core
+* HDD: 160 GB (Depending upon the number of logs and database you want to keep)
+
+ 
+## Recommended Hardware
+
+SafeSquid is SMP-aware so if you need to serve a large number of users, you should use hardware with multiple CPU cores, and ability to use more RAM efficiently.
+While the above specified Minimal Hardware should enable you to do a functional setup of SafeSquid, actual hardware requirements would vary depending upon the number of users, concurrent connections, and features you intend to enable. As a thumb rule - add 2 CPU cores and 4GB RAM per 100 concurrent connections.
+### Suggested Hardware Sizing 
+
+|CPU (cores)    | RAM (GB)  | 	HDD  |Max Concurrent Connections|Approx Users|
+|:---------------:|:-----------:|:--------:|:--------------------------:|:------------:|
+|4 	            |   8 	    | 500GB  |      	 100 	        |   25       |
+|4 	            |   16   	| 1TB 	 |           500 	1       |   50       |
+|8 	            |   16   	| 2TB 	 |           1000 	        |   350      |
+|8 	            |  32   	| 4TB 	 |           1500 	        |   600      |
+|16 	        |  32   	| 4TB 	 |           2000 	        |   1000     |
+|16 	        |  64   	| 8TB 	 |           2500 	        |   1500     |
+
+If you intend to use SafeSquid's HTTPS Inspection feature, using processors with "AES-NI", is recommended.
+
+[How to find out AES-NI (Advanced Encryption) Enabled on Linux System](https://www.cyberciti.biz/faq/how-to-find-out-aes-ni-advanced-encryption-enabled-on-linux-system/)
+
+# Installation and Activation
+## Get Product Activation Key
+
+Before downloading the SafeSquid installer(s), you MUST register to create your account on SafeSquid's self-service portal at - [key.safesquid.com](https://key.safesquid.com/).. Registration is free, and requires just a few minutes. Your registered account also provides the management of SafeSquid's cloud-backed features, like Custom Web Categorization, VPN support, Configuration Backup, Subscription management, etc.
+
+All registered users are provided with a Product Activation Key. After the actual installation, you must upload this activation key via SafeSquid's Browser based Interface. Your users may not be able to access the web until then. Use the same Activation Key across all your instances of SafeSquid, to ensure easy replication of policies, and other common aspects.
+
+Read more about Registration Process for [key.safesquid.com](https://key.safesquid.com/).
+
+## Download Installation Package
+### SafeSquid Appliance Builder
+
+SafeSquid Appliance Builder (SAB) is the most recommended installer. You may download it using the link displayed when you log into your registered account. 
+Alternatively you may download it from - [safesquid.iso](https://downloads.safesquid.com/appliance/safesquid.iso). 
+SAB is a customized version of Ubuntu 18.04 x86_64 minimal iso. You may create a virtual appliance using the SAB iso on any virtualization infrastructure, or boot a standard Intel Server hardware to create a hardware appliance.
+
+Read more about [Setup Your Secure Web Gateway With SafeSquid Appliance Builder]()
+
+### Legacy SafeSquid for Linux
+
+Read more about [Setup Your Secure Web Gateway on your preferred Linux distribution]()
+
+## Activate your Product
+
+Before you start accessing the web via SafeSquid you must activate it. Read more about [How to Activate a SafeSquid Instance]()
+
+# Basic Setup
+
+If you plan to use HTTPS inspection, then you must first [configure HTTPS inspection]()
+
+Integration of SafeSquid Proxy Service with your [Microsoft Active Directory](), or [OpenLDAP service](), would be the most recommended immediate next step.
+
+The [How To]() section could provide you with a fair idea of the rest of the goals that you may want to achieve. 
+
+## What is SafeSquid?
+
+SafeSquid is an RFC 2616 compliant HTTP/1.1 proxy server, specially designed to provide maximum protocol, and payload security. SafeSquid based Secure Web Gateways enable your users to safely access the web. SafeSquid, when setup in Reverse Proxy mode, secures your web applications. SafeSquid is a highly scalable software, that enables scaling up by increasing the hardware provisioning, or scaling out by creating an application cluster.
+
+### Why should I use SafeSquid?
+
+SafeSquid is an HTTP Proxy Server specially designed for web security. You should use SafeSquid for securely distributing Internet access across large network and to protect your enterprise against productivity losses, and collateral losses.
+
+### Which Operating Systems does SafeSquid support?
+
+SafeSquid support both operating systems, i.e. LINUX as well as Microsoft Windows. The installable packages for both these platforms(LINUX and Microsoft Windows) are different for obvious reasons, the configuration and operation is quite identical. So you can choose platform of your choice, to host SafeSquid Proxy Service. Yes, the advantages of deploying SafeSquid on Linux are overall higher because the Linux operating system is better suited for servers. But then if you are more comfortable with Microsoft®Windows, you can happily deploy on Windows. Migration from either of the platforms to the other is not very difficult, really!
+
+### What is the minimal hardware required for SafeSquid?
+
+- **RAM:** 4 GB
+- **CPU:** 2 Core
+- **HDD:** 160 GB (Depending on the size of logs and database you want to store)
+
+[See the Hardware Requirements here](#Hardware_requirements)
+
+### What is SafeSquid Appliance Builder?
+
+SafeSquid Appliance Builder (SAB) is the most recommended method for setting up your secure web gateway. SAB is a customized distro of Ubuntu Linux. It enables you to quickly setup your secure web gateway on a standard Intel server hardware, or as a virtual appliance on any virtualization platform like VmWare or Hyper-V. SAB automatically installs and configures all dependency libraries, and services.
+
+[For more details follow](#LINK)
+
+### Where should I get the latest version of SafeSquid to upgrade?
+
+- **For Windows:** [http://downloads.safesquid.net/SWG/windows/setup_safesquid_swg_latest.exe](http://downloads.safesquid.net/SWG/windows/setup_safesquid_swg_latest.exe)
+- **For Linux:** [http://downloads.safesquid.net/appliance/binary/safesquid_latest.tar.gz](http://downloads.safesquid.net/appliance/binary/safesquid_latest.tar.gz)
+
+### What is SafeSquid for Windows?
+
+SafeSquid for Windows is content filtering proxy server. SafeSquid for linux has been natively ported for use on Microsoft Windows platform, and distributed as SafeSquid for Windows. It gives you Total Access Control, Total Content Control & Total Internet Security. SafeSquid for Windows can be installed on any desktop/server having Microsoft Windows based 64-bit Operating Systems.
+
+### Where should I get a product activation key?
+
+You can get a product activation key on [SafeSquid self-service portal](https://key.safesquid.com/). You must register to create your account on SafeSquid self-service portal and download your product activation key.
+
+### What is SafeSquid Self Service portal?
+
+The SafeSquid Self-Service Portal is the cloud-based management console for SafeSquid. The SafeSquid Self-Service Portal manages the activities like, SafeSquid cloud-backed features, Custom Web Categorization, Web Security Clients for Roaming users (VPN), Confidential Data Signatures, Subscription management, etc.
+
+[Read more about Management of Self-Service Portal](#)
+
+### Whom should we permit to access the SafeSquid Web GUI?
+
+SafeSquid has an intrinsic Web GUI, that enable you to manage your installation, setup required policies, and monitor your secure web gateway. You should configure SafeSquid policies to allow access of the WebGUI to only security administrators.
+
+### How do I know SafeSquid product is activated?
+
+If you able to access all the websites from your browser that means your product is activated.
+
+### Where should I get license details?
+
+Once you activate product successfully you should get license details on Support page of SafeSquid Web GUI.
+
+[For more details follow](#LINK)
+
+### Why am I getting "Proxy Access Denied?"
+
+If you should not properly configure policies under access restriction section or administrator should not give you access of SafeSquid Interface, you are getting "Proxy Access Denied" template.
+
+### Does SafeSquid inspect HTTPS traffic?
+
+Yes, SafeSquid inspect HTTPS traffic. HTTPS Inspection is the standard Security technology for encrypting a connection between the client and web server.
+
+### When should I enable HTTPS Inspection?
+
+Enable HTTPS inspection on SafeSquid SWG to inspect traffic that encrypted by the Secure Sockets Layer (SSL) protocol. By that SafeSquid do deep content inspection of encrypted HTTPS traffic. Encrypted content filtered easily.
+
+### When should I bypass HTTPS Inspection?
+
+The HTTPS inspection Bypass option enables you to define specific websites that are not subject to decryption as they flow through the proxy. Some websites may include personal identification information that should not be decrypt. To avoid liability for inspecting this type of information, you may want to specify some or all these sites for decryption bypass. The selected sites will not be decrypt even if the category or categories that the sites belong to selected for SSL analysis.
+
+### What are the benefits of HTTPS inspection in SafeSquid?
+
+Having HTTPS inspection feature some interesting things that you can do with this SafeSquid SWG:
+
+- You should block access to personal Google accounts.
+- You should give Read only access to the Facebook, Twitter sites. Users can able to login into their accounts but they cannot able to do post or comment or like or chat.
+- You should enforce safe search or safety mode-based searches in Google, Bing and Yahoo search engines and also, we can enforce in any websites that are offering safety mode-based search.
+- You should block images over Google.
+- You should filter text, Images over HTTP, and HTTPS sites.
+- You should allow specified users to access or to login into specified HTTP and HTTPS sites and block others.
+- You should use Virus scanning for both HTTP and HTTPS sites.
+- You should blocking attachments to Gmail and Block Gmail Chat.
+
+### What is an SSL certificate?
+
+SSL Certificates are small data files that digitally bind a cryptographic key to an organization’s details. When installed on a web server, it activates the padlock and the https protocol and allows secure connections from a web server to a browser. SSL Certificates provide secure, encrypted communications between a website and an internet browser. SSL stands for Secure Sockets Layer, the protocol which provides the encryption. SSL Certificates installed on pages that require end-users to submit sensitive information over the internet like credit card details or passwords.
+
+### Where can I get an SSL certificate?
+
+You should get SSL certificate on [SafeSquid self-service portal](https://www.safesquid.com/). You can generate new self-signed certificate also.
+
+[Follow for more details](#LINK)
+
+### Can I use my SSL certificates generated from my Enterprise CA?
+
+Yes, you can use your SSL certificate generated from your Enterprise CA if you have. SafeSquid provides you a facility to use SSL certificates generated from Enterprise CA.
+
+### Can I integrate an LDAP service like Microsoft Active Directory or OpenLDAP with SafeSquid?
+
+Yes, you can integrate an LDAP service like Microsoft Active Directory or OpenLDAP with SafeSquid. Enterprises with many users often manage user credentials via a centralized system, like Microsoft’s Active Directory or OpenLDAP based Directory Services. When integrated with a Directory Service, a Web Gateway can:
+
+- Authenticate users based on their Directory Service Credentials
+- Control their web access based on their enterprise role and hierarchy
+- Log and report their activity for individual and group analysis
+
+### What is SafeSquid SSO Authentication?
+
+SafeSquid SSO authentication is a non-interactive authentication process. It's particularly useful for Enterprise networks with a Microsoft AD based Domain controller. By properly configuring Kerberos with SafeSquid, users can enjoy SSO Authentication, ensuring that they don't have to manually provide credentials while accessing networked resources, enhancing both convenience and security.
+
+### If my SSO authentication fails, is LDAP fail-over functionality available in SafeSquid?
+
+Yes, if users face authentication issues, SafeSquid offers an LDAP fail-over function. Users can provide valid LDAP credentials (username and password) to gain access to the network enterprise.
+
+### When should I bypass authentication?
+
+Certain applications, like Dropbox, which don't support proxy authentication, may require you to bypass authentication.
+
+### Can I use SafeSquid Captive portal to monitor internet usage traffic?
+
+Yes, SafeSquid's captive portal can be used to monitor internet usage traffic.
+
+### What is SafeSquid Captive portal?
+
+SafeSquid's captive portal functions like other general captive portals. It enhances the security of WIFI networks by authenticating users before granting internet access. Users see the SafeSquid captive portal landing page when trying to access the internet via WIFI. After entering credentials, SafeSquid validates them using various authentication mechanisms and maintains a database of authenticated IP addresses and usernames. This ensures that only valid users can access the WIFI network, and combining this with SafeSquid's secure web gateway further enhances security levels.
+
+### Does SafeSquid support transparent proxy?
+
+Yes, SafeSquid supports transparent proxy, including both HTTP and HTTPS websites in transparent mode, termed as SSL transparent proxy.
+
+[For more details, follow this link](#LINK)
+
+### Why should I enable WCCP?
+
+WCCP, or Web Cache Communication Protocol, is useful for transparent traffic redirection, load balancing, scaling up, and ensuring service assurance & high availability. If your router, like CISCO ASA routers, supports WCCP, it might be beneficial to enable it in SafeSquid.
+
+[For more details, follow this link](#LINK)
+
+### Can I make SafeSquid go direct for some sites?
+
+### Can I prevent users from accessing porn sites?
+
+### Can I prevent users from accessing social networking sites?
+
+Yes, with SafeSquid configured, it will block all social networking sites by default. However, you can allow exceptions for specific times, like during lunch hours.
+
+[For more details, follow this link](#LINK)
+
+### Can I prevent users from uploading confidential data?
+
+SafeSquid offers Advanced DLP (Data Loss Prevention) solutions embedded within its SWG, allowing for deep inspection of data and ensuring that sensitive information isn't leaked.
+
+[For more details, follow this link](#HowTo)
+
+### Can I prevent users from uploading specific file extensions?
+
+Yes, SafeSquid's DLP (Data Loss Prevention) module can be used to block specific file types or extensions based on content type.
+
+[For more information, follow this link](#HowTo)
+
+### Can I prevent users from using anonymous proxy?
+
+Yes, SafeSquid can block users from accessing anonymous proxies, ensuring that users can't access blocked websites.
+
+[For more details, follow this link](#HowTo)
+
+### Can I prevent users from using their personal Gmail account on the company network?
+
+Yes, SafeSquid can be configured to block personal email access while still allowing access to corporate Google accounts.
+
+[For more details, follow this link](#HowTo)
+
+### Can I prevent users from logging into Facebook or Gmail?
+
+SafeSquid can be configured to restrict specific users from logging into sites like Facebook or Gmail.
+
+[For more details, follow this link](#HowTo)
+
+### Can I prevent users from downloading large files?
+
+### Does SafeSquid protect the network against Malware and External Attacks?
+
+SafeSquid offers multiple layers of defense against malware and external attacks, including integration with SvScan Antivirus, ClamAV Antivirus, and Icap Antivirus.
+
+[For more details, follow this link](#HowTo)
+
+### Does SafeSquid protect the network against Internal Threats and Data Leakage?
+
+### Should I block third-party cookies?
+
+SafeSquid can be configured to block third-party cookies, enhancing user privacy and security.
+
+[For more details, follow this link](#HowTo)
+
+### Where can I get SafeSquid default policies?
+
+SafeSquid's default policies and related documentation can be found in the "How To" section of [SafeSquid documentation](http://docs.safesquid.com).
+
+### Should I get a performance plot in SafeSquid?
+
+Performance plots are available on the support page of SafeSquid's Web GUI. Users can customize the plot based on specific time frames.
+
+### Should I get a support tarball in SafeSquid?
+
+Support tarballs can be generated and accessed from the support page of SafeSquid's Web GUI.
+
+### Should I download my config file?
+
+Users can download their configuration files at any time from SafeSquid. SafeSquid also offers the option to download a default config file in case a rollback is necessary.
+
+### Does SafeSquid provide a dashboard for reporting?
+
+SafeSquid offers a comprehensive dashboard that provides details of the last 1000 transactions, including IP addresses, user details, domains, profiles, and more. Users can customize the report based on specific criteria.
+
+### Should I get a report in PDF format?
+
+SafeSquid's reporting feature allows for the export of reports in both PDF and Excel formats.
+
+### Can I get a report for specific dates?
+
+SafeSquid's advanced reporting model offers detailed, customizable reports, which can be filtered by specific dates.
+
+### My SafeSquid becomes very slow after running for some time. Why?
+
+### Can SafeSquid anonymize HTTP requests?
+
+### How does SafeSquid licensing work?
+
+SafeSquid SWG is available as an annual subscription. There are multiple subscription plans available based on Named Users, Concurrent Connections, and CPU Hours. Additionally, premium features can be subscribed to separately.
+
+[For more details, follow this link](#SafeSquid_licensing)
+
+### How do I purchase SafeSquid secure web gateway?
+
+SafeSquid SWG subscriptions can be purchased online via PayPal or through Wire/Bank Transfer.
+
+### What happens if I stop paying SafeSquid for my subscription(s)?
+
+If you do not renew your annual SafeSquid SWG subscription, the product
+
+{{ page.pdf_url }} 

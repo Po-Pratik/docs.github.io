@@ -1,5 +1,44 @@
 ---
-layout: Troubleshooting
+title: Troubleshooting
+layout: post
 icon: fa fa-wrench
 order: 8
 ---
+
+# [ISO installation failure]()
+# [Product Activation Failed ]()
+# [Interface access blocked- Access Denied]()
+# [LDAP entries are not fetched]()
+# [SSO Authentication Fail]()
+# [SSL certificate  downloaded  with  zero  size  OR  unable  to  download  SSL  certificate]()
+# [SSL certification errors]()
+# [S_X509_DNS_MISMATCH: SSL Certificate Has DNS Error]()
+# [X509_V_ERR_DEPTH_ZERO_SELF_SIGNED_CERT]()
+# [Disk space and RAM is full on SafeSquid server]()
+# [DNS failure]()
+# [Connection failure to websites]()
+# [Website blocked with Text analyzer]()
+# [Website blocked with image analyzer]()
+# [White listed website is blocked]()
+# [Category update is not working]()
+# [Do Android proxy settings apply to all apps on the device]()
+# [Application not working with Authentication]()
+# [Application not working with HTTPS inspection]()
+# [Unable to login to specific website]()
+# [Unable to upgrade to the latest version]()
+# [Getting an error Proxy server refusing connections]()
+# [Authentication is not working]()
+# [Unable to generate Support Tar-ball]()
+# [Unable to generate Performance plot]()
+# [Not displaying anything on Reports Page]()
+# [Load on server is increased]()
+# [Master-slave configuration is not working]()
+# [Cloud restore is not working]()
+# [Not writing into the database]()
+# [Validate corporate CA]()
+# [Transparent proxy]()
+# [Unable to open any website]()
+# [HTTPS inspection is not working]()
+# [How to setup transparent proxy for other protocols]()
+# [Reverse Proxy]()
+# [Certificate  manageability]()

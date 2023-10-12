@@ -1,8 +1,8 @@
 ---
 title: How to Activate a SafeSquid Instance.
 date: 2023-10-07 16:00:00 +05:30
-categories: [getstarted,setup,activateinstance]
-tags: [setup,activate]
+categories: [How To]
+tags: [activate safesquid]
 ---
 
 # Overview

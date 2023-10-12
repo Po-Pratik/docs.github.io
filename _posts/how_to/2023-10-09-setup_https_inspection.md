@@ -1,7 +1,7 @@
 ---
 title: Setup HTTPS Inspection.
 date: 2023-10-07 16:00:00 +05:30
-categories: [getstarted,setup,activateinstance]
+categories: [How To]
 tags: [setup,activate]
 ---
 

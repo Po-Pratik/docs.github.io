@@ -1,7 +1,7 @@
 ---
 title: Registration
 date: 2023-10-07 16:00:00 +05:30
-categories: [getstarted,register]
+categories: [Getting Started,register]
 tags: [activationkey,registration,selfserviceportal]
 ---
 

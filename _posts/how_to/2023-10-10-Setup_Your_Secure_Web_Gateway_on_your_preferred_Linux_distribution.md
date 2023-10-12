@@ -1,8 +1,8 @@
 ---
 title: Setup Your Secure Web Gateway on your preferred Linux distribution.
 date: 2023-10-07 16:00:00 +05:30
-categories: [getstarted,sab,setup,custominstall]
-tags: [setup,tar]
+categories: [How To]
+tags: [HowTo]
 ---
 
 # Overview

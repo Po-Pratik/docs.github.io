@@ -1,5 +1,6 @@
 ---
-layout: Application Eco-System
-icon: fas fa-stream
+title: Application Eco-System
+layout: post
+icon: fas fa-info-circle
 order: 6
 ---
