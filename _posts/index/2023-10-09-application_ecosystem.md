@@ -1,6 +1,5 @@
 ---
 title: Application Eco-System
 layout: post
-icon: fas fa-info-circle
-order: 6
+date: 2023-10-07 16:00:00 +05:30
 ---

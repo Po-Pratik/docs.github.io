@@ -1,8 +1,7 @@
 ---
 title: About SafeSquid SWG
 layout: post
-icon: fas fa-info-circle
-order: 9
+date: 2023-10-07 16:00:00 +05:30
 ---
 
 # SafeSquid SWG
@@ -10,15 +9,6 @@ order: 9
 An HTTP(S) Proxy server is the core component of most perimeter web security solutions. While larger networks employ dedicated proxy server solutions, most of the small business and enterprise networks depend on proxy services offered by traditional UTM / NGFW solutions. Most of these solutions are based on near-identical adaption of legacy open-source HTTP Proxy server technologies that were originally designed for purposes other than security. Technical limitation in options and capabilities offered by typical perimeter security solutions, thus is also quite similar.
 
 Secure operating practices defined as GRC policies for web security are key to pro-active defence against evolving threats like Ransomware, loss of confidential information, and targeted behavior altering attacks on enterprises. Legacy proxy server solutions require security measures to be defined around their limited capabilities and features. HTTP proxy servers specifically designed for web security have extensively configurable options that enable precise translation of GRC policies defined in vendor-agnostic terminology.
-
-## Contents
-
-1. [Brief Introduction](#brief-introduction)
-2. [Key Benefits](#key-benefits)
-3. [Technology](#technology)
-4. [USP (Unique Selling Proposition)](#usp)
-5. [How it Works](#how-it-works)
-6. [Solution Highlights](#solution-highlights)
 
 ## Brief Introduction
 
