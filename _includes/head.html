@@ -97,5 +97,21 @@
 
   {% include metadata-hook.html %}
 
-  <p>test</p>
 </head>
+<body>
+
+<header id="page_head">
+  <nav class="container">
+
+      <ul id="navigation">
+        <a class="home-icon" href="{{ '/' | relative_url }}"><img src="/images/home-icon.png" alt="SafeSquid-icon"/a>
+          <li><a class="home" href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{% link _posts/index/2023-10-09-getting_started.md %}">Get Started</a></li>
+          <li><a href="https://www.kali.org/blog/">Configure</a></li>
+          <li><a href="https://www.kali.org/blog/">How To</a></li>
+          <li><a href="https://www.kali.org/blog/">What's New</a></li>
+          <li><a href="https://www.kali.org/blog/">FAQs</a></li>
+      </ul>
+  </nav>
+</header>
+</body>
